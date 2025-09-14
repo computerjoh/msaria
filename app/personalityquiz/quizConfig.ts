@@ -375,5 +375,105 @@ export const quizQuestions: QuizQuestion[] = [
             { label: "Sacrifice yourself for the cause", archetype: "The Hero's Muse" },
         ],
     },
+    {
+        id: "q21",
+        question: "You’re asked to mentor a young adventurer. How do you guide them?",
+        options: [
+            { label: "With wisdom and patience", archetype: "The Wise Wizard" },
+            { label: "By pushing them into challenges", archetype: "The Barbarian" },
+            { label: "By teaching them cunning tricks", archetype: "The Trickster" },
+            { label: "By encouraging their hidden potential", archetype: "The Hero's Muse" },
+        ],
+    },
+    {
+        id: "q22",
+        question: "The gods offer you a place among them. What’s your choice?",
+        options: [
+            { label: "Accept as part of destiny", archetype: "The Mythic Warrior" },
+            { label: "Reject them and walk your own path", archetype: "The Anti-Hero" },
+            { label: "Use it to protect humanity", archetype: "The Iron Woman" },
+            { label: "Seek enlightenment instead of power", archetype: "The Mystic" },
+        ],
+    },
+    {
+        id: "q23",
+        question: "You are lost in the desert. What keeps you going?",
+        options: [
+            { label: "Loyalty to those counting on me", archetype: "The Companion" },
+            { label: "The promise of glory", archetype: "The Knight" },
+            { label: "The hope of uncovering hidden magic", archetype: "The Witch" },
+            { label: "My stubborn refusal to quit", archetype: "The Unlikely Hero" },
+        ],
+    },
+    {
+        id: "q24",
+        question: "You come across a wounded enemy. What do you do?",
+        options: [
+            { label: "Show mercy, hoping to change them", archetype: "The Damsel" },
+            { label: "End them swiftly", archetype: "The Warbringer" },
+            { label: "Spare them, but watch carefully", archetype: "The Rogue" },
+            { label: "Heal them with strange power", archetype: "The Magical prodigy" },
+        ],
+    },
+    {
+        id: "q25",
+        question: "A great festival is held in your honor. How do you behave?",
+        options: [
+            { label: "Celebrate wildly with strength on display", archetype: "The Barbarian" },
+            { label: "Slip away unnoticed", archetype: "The Shadow" },
+            { label: "Play the fool and entertain the crowd", archetype: "The Fool" },
+            { label: "Deliver words that inspire others", archetype: "The Hero's Muse" },
+        ],
+    },
+    {
+        id: "q26",
+        question: "The enemy offers you a truce. How do you respond?",
+        options: [
+            { label: "Accept if it spares lives", archetype: "The Companion" },
+            { label: "Reject, they cannot be trusted", archetype: "The Knight" },
+            { label: "Twist it into an advantage", archetype: "The Trickster" },
+            { label: "Use the peace to prepare for greater war", archetype: "The Earth-Shaker" },
+        ],
+    },
+    {
+        id: "q27",
+        question: "You discover a hidden power inside you. What do you do?",
+        options: [
+            { label: "Train and master it carefully", archetype: "The Magical prodigy" },
+            { label: "Use it recklessly against enemies", archetype: "The Anti-Hero" },
+            { label: "Keep it secret, biding time", archetype: "The Shadow" },
+            { label: "Accept it as a divine gift", archetype: "The Mystic" },
+        ],
+    },
+    {
+        id: "q28",
+        question: "A friend betrays the group for riches. How do you respond?",
+        options: [
+            { label: "Confront them with steel", archetype: "The Maiden Warrior" },
+            { label: "Laugh bitterly and walk away", archetype: "The Fool" },
+            { label: "Plot revenge in secret", archetype: "The Anti-Hero" },
+            { label: "Forgive them, hoping for redemption", archetype: "The Damsel" },
+        ],
+    },
+    {
+        id: "q29",
+        question: "You stand before an ancient machine of immense power. What’s your choice?",
+        options: [
+            { label: "Harness it to advance humanity", archetype: "The Iron Woman" },
+            { label: "Smash it before it can be abused", archetype: "The Barbarian" },
+            { label: "Decode its mysteries", archetype: "The Wise Wizard" },
+            { label: "Claim it to rule through force", archetype: "The Warbringer" },
+        ],
+    },
+    {
+        id: "q30",
+        question: "Your legacy will be remembered for…",
+        options: [
+            { label: "Bravery and sacrifice", archetype: "The Mythic Warrior" },
+            { label: "Laughter that outlives sorrow", archetype: "The Fool" },
+            { label: "Wisdom passed down generations", archetype: "The Mystic" },
+            { label: "Chaos that reshaped the world", archetype: "The Trickster" },
+        ],
+    },
 ];
 
