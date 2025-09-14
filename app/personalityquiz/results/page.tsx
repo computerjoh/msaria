@@ -1,10 +1,11 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import { Archetype, archetypeConfig } from "../quizConfig";
 
-export default function ResultsPage() {
+function ResultsContent() {
     const params = useSearchParams();
     const archetype = params.get("archetype") as Archetype;
 
@@ -33,5 +34,13 @@ export default function ResultsPage() {
             />
             <p className="text-lg">{info.description}</p>
         </div>
+    );
+}
+
+export default function ResultsPage() {
+    return (
+        <Suspense fallback={<p className="text-center p-6">Loading results...</p>}>
+            <ResultsContent />
+        </Suspense>
     );
 }
