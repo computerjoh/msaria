@@ -24,7 +24,7 @@ export type Archetype =
     | "The Rogue"
     | "The Damsel"
     | "The Unlikely Hero"
-    | "The Tron Woman"
+    | "The Iron Woman"
     | "The Companion"
     | "The Magical prodigy"
     | "The Fool"
@@ -329,7 +329,7 @@ export const quizQuestions: QuizQuestion[] = [
         id: "q16",
         question: "You encounter advanced technology beyond comprehension. How do you respond?",
         options: [
-            { label: "Master it as part of your destiny", archetype: "The Tron Woman" },
+            { label: "Master it as part of your destiny", archetype: "The Iron Woman" },
             { label: "Approach cautiously, seeking wisdom", archetype: "The Mystic" },
             { label: "Exploit it for personal gain", archetype: "The Rogue" },
             { label: "Destroy it before it corrupts humanity", archetype: "The Warbringer" },
