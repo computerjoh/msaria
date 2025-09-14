@@ -46,7 +46,7 @@ export default function QuizPage() {
         }
 
         const topArchetypes = Object.entries(scores)
-            .filter(([_, score]) => score === maxScore)
+            .filter(([, score]) => score === maxScore)
             .map(([archetype]) => archetype);
 
         setResult(
