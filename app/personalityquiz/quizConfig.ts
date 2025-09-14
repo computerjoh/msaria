@@ -124,10 +124,10 @@ export const archetypeConfig: Record<Archetype, ArchetypeInfo> = {
             "You rise to the occasion when no one expects it. Ordinary on the surface, extraordinary when it matters.",
         image: "/archetype-images/unlikely-hero.jpg",
     },
-    "The Tron Woman": {
-        title: "The Tron Woman",
+    "The Iron Woman": {
+        title: "The Iron Woman",
         description:
-            "Futuristic and fierce, you blend technology and humanity. You thrive in worlds both digital and real.",
+            "Characterized by exceptional strength, resilience, and endurance",
         image: "/archetype-images/tron-woman.webp",
     },
     "The Companion": {
